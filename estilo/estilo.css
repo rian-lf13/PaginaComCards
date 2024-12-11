@@ -6,4 +6,60 @@ body{
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    background-image: url(../imagens/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hero {
+    padding: 1px;
+}
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px black;
+    margin-bottom: 0;
+    }
+
+.hero-content p{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-size: 18px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.content-section{
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 860px;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.986);
+}
+
+.card{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: #393535ec;
+    color: whitesmoke ;
 }
