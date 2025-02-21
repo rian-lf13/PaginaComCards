@@ -1,1 +1,1 @@
-Projeoto criado em curso durante aulas.
+Projeto criado em curso durante aulas.
